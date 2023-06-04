@@ -27,20 +27,7 @@ The regex /^<([a-z]+)([^<]+)*(?:>(.*)<\/\1>|\s+\/>)$/ is used to match an HTML t
 
 ## Regex Components
 
-When it comes to our specific regex "Matching an HTML Tag – /^<([a-z]+)([^<]+)*(?:>(.*)<\/\1>|\s+\/>)$/" includes the following components. 
-[Anchors](#anchors)
-    - [Quantifiers](#quantifiers)
-    - [OR Operator](#or-operator)
-    - [Character Classes](#character-classes)
-    - [Flags](#flags)
-    - [Grouping and Capturing](#grouping-and-capturing)
-    - [Bracket Expressions](#bracket-expressions)
-    - [Greedy and Lazy Match](#greedy-and-lazy-match)
-    - [Boundaries](#boundaries)
-    - [Back-references](#back-references)
-    - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
-In regard to these components I will be giving a short tutorial when it comes to each below.
-
+When it comes to the specific regex `/^<([a-z]+)([^<]+)*(?:>(.*)<\/\1>|\s+\/>)$/` for matching an HTML tag, it consists of several essential components. In this tutorial, we will delve into each of these components and provide a detailed explanation for better understanding. The components covered include Anchors, Quantifiers, OR Operator, Character Classes, Flags, Grouping and Capturing, Bracket Expressions, Greedy and Lazy Match, Boundaries, Back-references, and Look-ahead and Look-behind. Let's explore each of these components in the following sections.
 
 ### Anchors
 
